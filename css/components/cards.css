@@ -1,0 +1,22 @@
+.cards {
+  display: flex;
+  justify-content: space-around;
+
+}
+.container h1 {
+  display: flex;
+  justify-content: center;
+}
+.cards .card1, .card2, .card3 {
+  margin: 1px 1px 1px black;
+  padding: 30px;
+  box-shadow: 2px 2px 2px black;
+  background-color: grey;
+  width: 200px;
+}
+
+.card-pic {
+  height: 100px;
+  width: 200px;
+}
+

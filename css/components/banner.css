@@ -1,0 +1,45 @@
+.banner {
+  background-image: url('../../images/background.png');
+  height: 500px;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+/*.banner .container .button {
+  margin: 0 auto;
+  
+}
+
+.banner .container {
+  width: 60%;
+}*/
+.banner-button {
+  display: flex;
+  justify-content: center;
+}
+
+
+.banner p {
+  opacity: 0.7;
+}
+
+.banner a {
+  position: absolute;
+  bottom: 100px;
+ 
+  margin: 1px 1px 1px;
+  padding: 20px;
+  background-color: green;
+  border-radius: 10px;
+  transition-duration: 300ms;
+}
+
+.banner a:hover {
+  color: black;
+  opacity: 0.8;
+}
